@@ -3,17 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     /* more of this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* apply styles to <header> */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
 }
-header h1 {
+er h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
@@ -25,37 +27,45 @@ header a {
     text-decoration:none;
     color: #fce138;
 }
+
  header nav {
     float: right;
     margin: 7px 0;
  }
+
  header nav ul li {
     display: inline;
  }
+
  header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
  }
+
  footer {
     background: #fce138;
     width: 100%;
     padding: 40px 35px;
  }
+
  footer h2 {
     display: inline;
     color: #024e76;
     font-size: 30px;
     margin: 0;
  }
+
  footer div {
     float: right;
     line-height: 1.5;
     text-align: justified;
  }
+
  footer a {
     color: #024e76;
  }
+
  /* Hero style Start */
  .hero {
     background-image: url("../assets/image/hero-bg.jpeg");
@@ -64,6 +74,7 @@ header a {
     background-position: center;
     position:relative;
  }
+
  /* Hero-form style */
  .hero-form {
     border: 3px solid #024e76;
@@ -75,13 +86,16 @@ header a {
     bottom: 120px;
     right: 140px;
  }
+
  .hero-form h3 {
     font-size: 24px;
     margin: 0;
  }
+
  .hero-form p {
     margin: 5px 0 15px 0;
  }
+
  .form-input {
     border: 1px solid #024e76;
     display: block;
@@ -91,9 +105,11 @@ header a {
     width: 100%;
     margin-bottom: 15px;
  }
+
  .hero-form label {
     margin: 0 5px;
  }
+
  .hero-form button {
     color: #fce138;
     background-color: #024e76;
@@ -101,30 +117,45 @@ header a {
     padding: 10px 20px;
     font-size: 16px;
  }
+
  /* what we do */
  .intro {
    text-align: center;
  }
  
+ /* I ADDED */
+ .intro h2 {
+padding-top: 20px;
+
+ }
  .intro p {
    line-height: 1.7;
    color:#39a6b2;
    width: 80%;
    font-size: 20px;
-   margin: 0 auto;gst
+   margin: 0 auto;
  }
+
  /* what you do */
  .steps {
    text-align: center;
    background: #fce138;
  }
+
+/* I ADDED */
+.steps h2 {
+   padding-top: 20px;
+}
+
  .steps div {
-      margin-bottom: 80px;
+   margin-bottom: 80px;
  }
+
  .steps img {
    width: 15%;
    margin: 10px 0;
  }
+
  .steps h3 {
    color:#024e76;
    font-size: 46px;
@@ -135,9 +166,28 @@ header a {
  color: #39a6b2;
  font-size: 23px;  
 }
+
 .steps span {
-   font-size: 38px;s
+   font-size: 38px;
 }
+
+.section-title {
+   font-size: 55px;
+   color: #024e76;
+   margin-bottom: 35px;
+   padding: 0 100px 20px 100px;
+   display: inline-block;
+   border-bottom: 3px solid;
+}
+
+.primary-border {
+   border-color: #fce138;
+}
+
+.secondary-border {
+   border-color: #39a6b2;
+}
+
 /* meet your trainers */
 .trainers {
    text-align: center;
